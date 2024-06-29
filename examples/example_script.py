@@ -21,6 +21,7 @@ if __name__ == "__main__":
         target_lang=target_lang,
         source_text=source_text,
         country=country,
+        model="llama-3-8b",
     )
 
     print(f"Translation:\n\n{translation}")
